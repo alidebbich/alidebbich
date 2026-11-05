@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Ali Debbiche — Full-stack developer</title>
+  <desc id="desc">A dark, minimal banner introducing Ali Debbiche as a full-stack developer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#111A2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="100" x2="560" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72E3C0"/>
+      <stop offset="1" stop-color="#83A8FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#A9B7D0" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1050" cy="40" r="210" fill="#698BFF" fill-opacity=".08"/>
+  <circle cx="1080" cy="50" r="128" stroke="#8CA9FF" stroke-opacity=".2"/>
+  <circle cx="1080" cy="50" r="88" stroke="#8CA9FF" stroke-opacity=".14"/>
+  <path d="M950 210l74-74 36 36 74-74" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+  <circle cx="950" cy="210" r="5" fill="#72E3C0"/>
+  <circle cx="1024" cy="136" r="5" fill="#7DD7D0"/>
+  <circle cx="1060" cy="172" r="5" fill="#80C2E8"/>
+  <circle cx="1134" cy="98" r="5" fill="#83A8FF"/>
+  <rect x="72" y="66" width="5" height="168" rx="2.5" fill="url(#accent)"/>
+  <text x="104" y="139" fill="#F4F7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.6">Ali Debbiche</text>
+  <text x="107" y="181" fill="#B8C3D7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" letter-spacing="2.2">FULL-STACK DEVELOPER</text>
+  <text x="107" y="218" fill="#8292AE" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15">Building useful things for the web.</text>
+  <text x="1120" y="265" fill="#8292AE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" text-anchor="end">ALIDEBBICH · 2026</text>
+</svg>
