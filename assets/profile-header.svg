@@ -1,32 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Ali Debbiche — Full-stack developer</title>
-  <desc id="desc">A dark, minimal banner introducing Ali Debbiche as a full-stack developer.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Ali Debbiche — full-stack developer</title>
+  <desc id="desc">A richly layered midnight-blue profile banner with mint and periwinkle accents, an abstract product blueprint, and a terminal card.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
-      <stop offset="1" stop-color="#111A2E"/>
+    <linearGradient id="base" x1="45" y1="20" x2="1235" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101626"/>
+      <stop offset=".54" stop-color="#151D31"/>
+      <stop offset="1" stop-color="#202748"/>
     </linearGradient>
-    <linearGradient id="accent" x1="110" y1="100" x2="560" y2="210" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#72E3C0"/>
-      <stop offset="1" stop-color="#83A8FF"/>
+    <linearGradient id="beam" x1="74" y1="60" x2="660" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78F0CB"/>
+      <stop offset="1" stop-color="#8EA4FF"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#A9B7D0" stroke-opacity=".055"/>
+    <linearGradient id="orb" x1="925" y1="45" x2="1216" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7AF0CE" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#929AFF" stop-opacity=".015"/>
+    </linearGradient>
+    <pattern id="mesh" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#D8E2FF" stroke-opacity=".045"/>
+      <circle cx="0" cy="0" r="1" fill="#AFC2EB" fill-opacity=".12"/>
     </pattern>
+    <filter id="shadow" x="748" y="60" width="475" height="292" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="16"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
   </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
-  <circle cx="1050" cy="40" r="210" fill="#698BFF" fill-opacity=".08"/>
-  <circle cx="1080" cy="50" r="128" stroke="#8CA9FF" stroke-opacity=".2"/>
-  <circle cx="1080" cy="50" r="88" stroke="#8CA9FF" stroke-opacity=".14"/>
-  <path d="M950 210l74-74 36 36 74-74" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
-  <circle cx="950" cy="210" r="5" fill="#72E3C0"/>
-  <circle cx="1024" cy="136" r="5" fill="#7DD7D0"/>
-  <circle cx="1060" cy="172" r="5" fill="#80C2E8"/>
-  <circle cx="1134" cy="98" r="5" fill="#83A8FF"/>
-  <rect x="72" y="66" width="5" height="168" rx="2.5" fill="url(#accent)"/>
-  <text x="104" y="139" fill="#F4F7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.6">Ali Debbiche</text>
-  <text x="107" y="181" fill="#B8C3D7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" letter-spacing="2.2">FULL-STACK DEVELOPER</text>
-  <text x="107" y="218" fill="#8292AE" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15">Building useful things for the web.</text>
-  <text x="1120" y="265" fill="#8292AE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" text-anchor="end">ALIDEBBICH · 2026</text>
+  <rect width="1280" height="380" rx="26" fill="url(#base)"/>
+  <rect width="1280" height="380" rx="26" fill="url(#mesh)"/>
+  <ellipse cx="1090" cy="95" rx="256" ry="212" fill="url(#orb)"/>
+  <path d="M0 316C182 263 303 365 476 314C614 273 690 236 800 260" stroke="#8CA4D5" stroke-opacity=".11" stroke-width="1.5"/>
+  <path d="M0 331C176 279 311 380 493 330C628 293 705 255 805 277" stroke="#8CA4D5" stroke-opacity=".08" stroke-width="1.5"/>
+  <path d="M0 346C175 297 319 395 507 347C641 313 719 274 813 295" stroke="#8CA4D5" stroke-opacity=".06" stroke-width="1.5"/>
+
+  <rect x="72" y="70" width="44" height="44" rx="14" fill="#93F0D2" fill-opacity=".1" stroke="#93F0D2" stroke-opacity=".32"/>
+  <path d="M87 92h14M94 85v14" stroke="#91F0D0" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="101" cy="85" r="2" fill="#93F0D2"/>
+  <text x="132" y="98" fill="#A8B6D2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4">INDEPENDENTLY CURIOUS · PRODUCT-MINDED</text>
+
+  <text x="72" y="183" fill="#F4F7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="66" font-weight="750" letter-spacing="-3.1">Ali Debbiche</text>
+  <rect x="75" y="207" width="42" height="3" rx="1.5" fill="url(#beam)"/>
+  <text x="72" y="249" fill="#D6DDF0" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="23" font-weight="500">Full-stack developer</text>
+  <text x="72" y="284" fill="#9DAAC4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="17">I turn useful ideas into thoughtful software.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="804" y="91" width="364" height="219" rx="18" fill="#0B1120" fill-opacity=".9" stroke="#B6C5E7" stroke-opacity=".19"/>
+    <path d="M804 109C804 99.059 812.059 91 822 91H1150C1159.94 91 1168 99.059 1168 109V128H804V109Z" fill="#FFFFFF" fill-opacity=".035"/>
+    <circle cx="826" cy="110" r="4" fill="#FF8294" fill-opacity=".9"/>
+    <circle cx="842" cy="110" r="4" fill="#F1C66D" fill-opacity=".9"/>
+    <circle cx="858" cy="110" r="4" fill="#7AE0B6" fill-opacity=".9"/>
+    <text x="986" y="114" fill="#7988A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">a little about my work</text>
+
+    <text x="832" y="164" fill="#83E8C7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">const</text>
+    <text x="873" y="164" fill="#DAE4F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">approach</text>
+    <text x="944" y="164" fill="#AAB9D8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">= {</text>
+    <text x="851" y="193" fill="#A6B4D2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">curiosity:</text>
+    <text x="927" y="193" fill="#D3EAA9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">"always on",</text>
+    <text x="851" y="220" fill="#A6B4D2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">craft:</text>
+    <text x="904" y="220" fill="#B8C6FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">"end to end",</text>
+    <text x="851" y="247" fill="#A6B4D2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">currently:</text>
+    <text x="925" y="247" fill="#F0C895" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">"building"</text>
+    <text x="832" y="274" fill="#83E8C7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">};</text>
+  </g>
+
+  <circle cx="747" cy="103" r="3" fill="#8FEBD0"/>
+  <circle cx="1189" cy="235" r="4" fill="#9BA8FF" fill-opacity=".85"/>
+  <circle cx="1199" cy="248" r="2" fill="#9BA8FF" fill-opacity=".55"/>
+  <path d="M729 274h33" stroke="url(#beam)" stroke-width="2" stroke-linecap="round"/>
+  <text x="1202" y="348" fill="#8593AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.4" text-anchor="end">DESIGN THE DETAIL · BUILD THE WHOLE</text>
 </svg>
